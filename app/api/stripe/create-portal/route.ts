@@ -5,7 +5,7 @@ import { db } from "@/db";
 import { subscriptions } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
-export async function POST(req: Request) {
+export async function POST() {
   console.log("API route /api/stripe/create-portal hit");
   try {
     const { userId } = auth();

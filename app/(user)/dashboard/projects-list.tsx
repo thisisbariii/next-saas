@@ -3,7 +3,6 @@ import { projects } from "@/db/schema";
 import { Lock } from "lucide-react";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
